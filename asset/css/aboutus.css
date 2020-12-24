@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: "poppins",sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+ /*navbar section*/
+ nav{
+    width: 100%;
+    height: 11vh;
+    background: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+nav .logo span{
+    color: #e76b05;
+}
+.navbar ul{
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    background-color:#212121;
+}   
+.navbar ul li{
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 13px;
+    color: #e76b05;
+    letter-spacing: 2px;
+}
+.navbar li a:hover{
+    background-color: #61320b;
+    cursor: pointer;
+    transition: all 0.4s;
+    color: #fff;
+}
+/*Main Section*/
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-image:linear-gradient(#8b857ee8,#afc4afe8),url("../img/tory-mcphail-easy-low-cod.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.main_text{
+    color:#fff;
+    text-align: center;
+}
+.main_text h1{
+    font-size: 80px;
+    font-weight: 500;
+    font-family: serif;
+    font-family: cursive;
+}
+/*text section*/
+.text_section{
+    padding: 20px 0;
+}
+.my-text{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: serif;
+}
+.my-text span{
+    color: #0f991a;
+}
+.text_section p{
+    line-height: 28px;
+    font-weight: 100;
+    margin: 25px;
+    text-align: center;
+}
+/*post section*/
+.post_section{
+    padding: 20px 40px;
+}
+.my_container{
+    width: 95%;
+    margin: 2rem auto;
+}
+.card{
+    background-color: #fff;
+}
+.card-image{
+    height: 35rem;
+    overflow: hidden;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+.card-content{
+    padding: 2rem;
+
+}
+.blog_details p{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+@media screen and (min-width:500px){
+    .card{
+        display: flex;
+        height: 20rem;
+        overflow: hidden;
+    }
+    .card-image{
+        height: auto;
+        flex: 1;
+    }
+    .card-content{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .blog-title{
+        font-size: 28px;
+        letter-spacing: 1.5px;
+        font-family: serif;
+    }
+    .blog-title span{
+        color: #0f991a;
+    }
+    .card-content p{
+        font-size: 1rem;
+        line-height: 30px;
+        font-weight: 100;
+    }
+
+}
+/*team section*/
+.container{
+    margin: 20px 40px;
+}
+.container h2{
+    font-size: 32px;
+    text-align: center;
+    font-family: serif;
+}
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+.profile{
+    flex-basis: 260px;
+}
+.profile .profile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+.profile:hover .profile-img{
+    filter: grayscale(0);
+}
+.user-name{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: serif;
+}
+.profile h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: serif;
+}
+.profile p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+@media only screen and (max-width:1150px){
+    .profiles{
+        flex-direction: column;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile p{
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:900px){
+    .container h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .profiles{
+        margin: 20px 0;
+    }
+    .profile p{
+        margin: 20px 10px 80px 10px;
+    }
+
+
+}
+/*Footer Section*/
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #212121;
+    padding: 25px 0px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    
+}
+.footer-main-div h2{
+    text-align: center;
+    margin:12px;
+   padding: 2px;
+   color: #fff;
+   font-size: 18px;
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px;
+    border-radius: 40%;
+    background: #fff;
+}
+.footer-social-icons ul li a{
+    color:#212121;
+    font-size: 20px;
+}
+.footer-social-icons ul li a i{
+    line-height: 25px;
+}
+.footer-social-icons ul li:hover{
+    background: #3538c2e8;
+}
+.footer-social-icons ul li:hover a{
+    color:#fff;
+}
+
+.footer-social-icons p{
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+    color:#fff;
+    letter-spacing:2px;
+    padding: 10px 0;
+ 
+}

@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: "poppins",sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+ /*navbar section*/
+ nav{
+    width: 100%;
+    height: 11vh;
+    background: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+nav .logo span{
+    color: #e76b05;
+}
+.navbar ul{
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    background-color:#212121;
+}   
+.navbar ul li{
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 13px;
+    color: #e76b05;
+    letter-spacing: 2px;
+}
+.navbar li a:hover{
+    background-color: #61320b;
+    cursor: pointer;
+    transition: all 0.4s;
+    color: #fff;
+}
+/*About Section*/
+.about_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-image:linear-gradient(#8b8379e8,#798879e8),url("../img/concentrated-female-chef--3922243411.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: cursive;
+}
+.about_text h2{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.about_text p{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+.container h2{
+    text-align: center;
+    font-size: 28px;
+    color: #212121;
+    margin: 50px;
+}
+.container p{
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 100;
+    margin:50px;
+}
+.another_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-image:linear-gradient(#8b857ee8,#afc4afe8),url("../img/image.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    line-height: 40px;
+    font-family: cursive;
+}
+.another_text h2{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+}
+.another_text p{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+/*Footer Section*/
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #212121;
+    padding: 25px 0px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    
+}
+.footer-main-div h2{
+    text-align: center;
+    margin:12px;
+   padding: 2px;
+   color: #fff;
+   font-size: 18px;
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0px 10px;
+    border-radius: 40%;
+    background: #fff;
+}
+.footer-social-icons ul li a{
+    color:#212121;
+    font-size: 20px;
+}
+.footer-social-icons ul li a i{
+    line-height: 25px;
+}
+.footer-social-icons ul li:hover{
+    background: #3538c2e8;
+}
+.footer-social-icons ul li:hover a{
+    color:#fff;
+}
+
+.footer-social-icons p{
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+    color:#fff;
+    letter-spacing:2px;
+    padding: 10px 0;
+ 
+}
